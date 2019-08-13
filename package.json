@@ -4,6 +4,7 @@
   "description": "The slice method (Array.prototype.slice) but endless.",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "jest"
   },
   "repository": {
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/alexengrig/endless-slice/issues"
   },
-  "homepage": "https://github.com/alexengrig/endless-slice#readme"
+  "homepage": "https://github.com/alexengrig/endless-slice#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "jest": "^24.8.0"
+  }
 }
