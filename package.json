@@ -1,0 +1,25 @@
+{
+  "name": "endless-slice",
+  "version": "1.0.0",
+  "description": "The slice method (Array.prototype.slice) but endless.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexengrig/endless-slice.git"
+  },
+  "keywords": [
+    "slice",
+    "array",
+    "range",
+    "negative-indices"
+  ],
+  "author": "Grig Alex <alexengrigdev@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alexengrig/endless-slice/issues"
+  },
+  "homepage": "https://github.com/alexengrig/endless-slice#readme"
+}
