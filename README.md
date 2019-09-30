@@ -1,10 +1,8 @@
-# endless-slice
+# ♾️ endless-slice [![npm](https://img.shields.io/npm/v/endless-slice)](https://www.npmjs.com/package/endless-slice)[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+[![Build Status](https://travis-ci.com/alexengrig/endless-slice.svg?branch=master)](https://travis-ci.com/alexengrig/endless-slice)
 
 The slice method (Array.prototype.slice) but endless.
-
-[![npm](https://img.shields.io/npm/v/endless-slice)](https://www.npmjs.com/package/endless-slice)
-[![Build Status](https://travis-ci.com/alexengrig/endless-slice.svg?branch=master)](https://travis-ci.com/alexengrig/endless-slice)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Instalation
 
