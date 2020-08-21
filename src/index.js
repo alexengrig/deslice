@@ -14,4 +14,8 @@
  * limitations under the License.
  */
 
-export { default } from 'slice';
+import slice from './deslice';
+
+console.info('This is endless-slice');
+
+export default slice;
