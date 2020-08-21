@@ -17,7 +17,7 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports["default"] = void 0;
 
@@ -42,6 +42,5 @@ function _interopRequireDefault(obj) {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-console.info('This is endless-slice');
 var _default = _deslice["default"];
 exports["default"] = _default;
