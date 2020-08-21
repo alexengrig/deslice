@@ -26,6 +26,10 @@ describe('Test deslice method', () => {
       expect(deslice([0, 1, 2], 1)).toStrictEqual([1, 2]);
     });
 
+    it('should return the array starting from 1', () => {
+      expect(deslice([0, 1, 2], -2)).toStrictEqual([1, 2, 0]);
+    });
+
     it('should return the array without the last item', () => {
       expect(deslice([0, 1, 2], 0, 2)).toStrictEqual([0, 1]);
     });
