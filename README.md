@@ -1,6 +1,6 @@
 # deslice
 
-The slice method (Array.prototype.slice) but endless.
+Double-ended slice method (Array.prototype.slice).
 
 [![npm](https://img.shields.io/npm/v/deslice)](https://www.npmjs.com/package/deslice)
 [![Build Status](https://travis-ci.com/alexengrig/deslice.svg?branch=master)](https://travis-ci.com/alexengrig/deslice)
