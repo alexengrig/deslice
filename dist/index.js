@@ -24,7 +24,7 @@ exports["default"] = void 0;
 var _deslice = _interopRequireDefault(require("./deslice"));
 
 function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {"default": obj};
+  return obj && obj.__esModule ? obj : {"default": obj};
 }
 
 /*

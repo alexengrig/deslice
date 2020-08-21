@@ -14,11 +14,14 @@
  * limitations under the License.
  */
 
-export default function (arr = [], start = 0, end = arr.length) {
-  if (start < 0) {
-    const max = arr.length + start;
-    return [...arr.slice(start), ...arr.slice(0, end > max ? max : end)];
-  } else {
-    return arr.slice(start, end);
-  }
+export default function (arr, start, end) {
+    if (!Array.isArray(arr)) return arr;
+    if (start === undefined) start = 0;
+    if (end === undefined) end = arr.length;
+    if (start < 0) {
+        const max = arr.length + start;
+        return [...arr.slice(start), ...arr.slice(0, end > max ? max : end)];
+    } else {
+        return arr.slice(start, end);
+    }
 }

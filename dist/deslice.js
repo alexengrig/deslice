@@ -69,10 +69,10 @@ function _arrayLikeToArray(arr, len) {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-function _default() {
-  var arr = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
-  var start = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-  var end = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : arr.length;
+function _default(arr, start, end) {
+  if (!Array.isArray(arr)) return arr;
+  if (start === undefined) start = 0;
+  if (end === undefined) end = arr.length;
 
   if (start < 0) {
     var max = arr.length + start;

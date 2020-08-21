@@ -48,8 +48,20 @@ describe('Test deslice method', () => {
   });
 
   describe('Test arguments mistakes', () => {
-    it('should return the empty array', () => {
-      expect(deslice()).toStrictEqual([]);
+    it('should return undefined', () => {
+      expect(deslice()).toBeUndefined();
+    });
+
+    it('should return null', () => {
+      expect(deslice(null)).toBeNull();
+    });
+
+    it('should return string', () => {
+      expect(deslice('test')).toEqual('test');
+    });
+
+    it('should return integer', () => {
+      expect(deslice(1)).toEqual(1);
     });
 
     it('should return the same array (with the end index is gt the array length)', () => {
