@@ -1,15 +1,15 @@
 {
-  "name": "endless-slice",
-  "version": "1.0.0",
-  "description": "The slice method (Array.prototype.slice) but endless.",
-  "main": "index.js",
+  "name": "deslice",
+  "version": "1.0.0-alpha.0",
+  "description": "Double-ended slice method (Array.prototype.slice).",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexengrig/endless-slice.git"
+    "url": "git+https://github.com/alexengrig/deslice.git"
   },
   "keywords": [
     "slice",
@@ -20,13 +20,13 @@
   "author": "Grig Alex <alexengrigdev@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/alexengrig/endless-slice/issues"
+    "url": "https://github.com/alexengrig/deslice/issues"
   },
-  "homepage": "https://github.com/alexengrig/endless-slice#readme",
+  "homepage": "https://github.com/alexengrig/deslice",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "jest": "^24.8.0"
+    "@babel/cli": "7.10.5",
+    "@babel/core": "7.11.4",
+    "@babel/preset-env": "7.11.0",
+    "jest": "26.4.1"
   }
 }
